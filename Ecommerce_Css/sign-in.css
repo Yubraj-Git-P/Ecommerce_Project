@@ -1,8 +1,41 @@
-*{
-    padding: 0%;
-    margin: 0%;
-}
-.sign-in{
-    border: 1px solid black;
-    justify-content: center;
-}
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card {
+    border-radius: 10px;
+  }
+  
+  #togglepassword {
+    position: absolute;
+    top: 65%;
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .btn-warning {
+    background-color: #f56a1d;
+    border: none;
+  }
+  
+  .btn-warning:hover {
+    background-color: #e05c19;
+  }
+  
+  .btn-primary {
+    background-color: #3b5998;
+    border: none;
+  }
+  
+  .btn-danger {
+    background-color: #db4437;
+    border: none;
+  }
+
+@media (max-width: 768px) {
+    input::placeholder {
+      font-size: 0.875rem; 
+    }
+  }
+  
