@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>E-Commerce Signup</title>
+     <link rel="stylesheet" href="../static/Ecommerce_Css/sign-up.css">
+</head>
+
+<body>
+    <div class="signup-container">
+        <h1>Sign Up</h1>
+        <p>Join our e-commerce platform and start shopping now!</p>
+
+        <!-- Signup Form -->
+        <form id="signup-form">
+            <div class="form-group">
+            <label for="email">Sign Up with Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <button type="button" onclick="signupWithEmail()">Sign Up</button>
+             </div>
+
+            <div class="separator">
+            <span>or</span>
+            </div>
+
+            <div class="form-group">
+            <button type="button" id="facebook-signup" onclick="signupWithFacebook()">
+            <img src="/Ecommerce_Project/image/facebookIcon.png" alt="Facebook Icon"> Sign Up with Facebook
+                </button>
+                </div>
+            </form>
+        </div>
+
+    <script src="/Ecommerce_Project/Ecommerce_Javascript/signup.js"></script>
+</body>
+
+</html>
